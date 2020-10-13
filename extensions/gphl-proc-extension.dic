@@ -1,0 +1,483 @@
+#####################
+## Category REFLNS ##
+#####################
+
+save__reflns.gphl_aniso_axis_1_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_1_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_1_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_1_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_1_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_1_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_2_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_2_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_2_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_2_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_2_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_2_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_3_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_3_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_3_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_3_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_axis_3_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_axis_3_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+
+save__reflns.gphl_aniso_diffrn_limit_1
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_diffrn_limit_1'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_diffrn_limit_2
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_diffrn_limit_2'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_diffrn_limit_3
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_aniso_diffrn_limit_3'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
+
+save__reflns.gphl_percent_possible_spherical_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_percent_possible_spherical_obs'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_ellipsoidal_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+
+save__reflns.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_percent_possible_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_redundancy_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__reflns.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_CC_half_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__reflns.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
+###########################
+## Category REFLNS_SHELL ##
+###########################
+
+save__reflns_shell.gphl_percent_possible_spherical_all
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_all'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_ellipsoidal_all
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_all'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_redundancy_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__reflns_shell.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_CC_half_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__reflns_shell.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
+
