@@ -480,4 +480,67 @@ save__reflns_shell.gphl_absDiff_over_sigma_anomalous
 
     save_
 
+###########################
+## Category DIFFRN_REFLN ##
+###########################
 
+save__diffrn_refln.gphl_image_id
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_diffrn_refln.gphl_image_id'
+    _item.category_id             diffrn_refln
+    _item.mandatory_code          no
+    _item_type.code               int
+    loop_
+    _item_range.maximum
+    _item_range.minimum
+                                  .   0
+    save_
+
+save__diffrn_refln.gphl_detector_x
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_diffrn_refln.gphl_detector_x'
+    _item.category_id             diffrn_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+save__diffrn_refln.gphl_detector_y
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_diffrn_refln.gphl_detector_y'
+    _item.category_id             diffrn_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+save__diffrn_refln.gphl_rotation_angle
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_diffrn_refln.gphl_rotation_angle'
+    _item.category_id             diffrn_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+save__diffrn_refln.gphl_scale_value
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_diffrn_refln.gphl_scale_value'
+    _item.category_id             diffrn_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.maximum
+    _item_range.minimum
+                                  .   0.0
+     save_
