@@ -219,6 +219,26 @@ save__reflns.gphl_aniso_diffrn_limit_3
 
     save_
 
+save__reflns.gphl_orthogonalization_convention
+    _item_description.description
+;             GPhL TBD (Needed to enable diffraction anisotropy to be related
+                        to the reciprocal unit cell, but with only a limited
+                        number of cases in use in practice we don't need a full
+                        matrix like the ATOM_SITES category.)
+;
+    _item.name                  '_reflns.gphl_orthogonalization_convention'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               code
+
+    _pdbx_item_enumeration_details.closed_flag 'yes'
+    loop_
+    _item_enumeration.value
+    _item_enumeration.detail
+       pdb  'x along a, y along (cstar x a), z along cstar, with origins conincident'
+
+    save_
+
 save__reflns.gphl_percent_possible_spherical_obs
     _item_description.description
 ;              GPhL TBD
