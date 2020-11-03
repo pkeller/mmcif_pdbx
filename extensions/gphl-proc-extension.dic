@@ -745,11 +745,11 @@ save__refln.gphl_signal_status
 
                An unmeasured but observable reflection is one that has not
                been measured, but the data processing has determined that it
-               could have been measured and would have been expected to
-               provide an observation.
+               would have been expected to be observed had it been measured.
 
                An unmeasured and unobservable reflection is one that the data
-               processing has determined could not have provided an observation.
+               processing has determined would not have been expected to be
+               observed.
 
                In datasets which _refln.gphl_signal has been populated, a null
                (?) value indicates an unmeasured reflection for which it is not
