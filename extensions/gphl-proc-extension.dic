@@ -4,7 +4,10 @@
 
 save__reflns.gphl_aniso_axis_1_ortho[1]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 1 (X component) of ellipsoid fitted to
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_1_ortho[1]'
     _item.category_id             reflns
@@ -23,7 +26,10 @@ save__reflns.gphl_aniso_axis_1_ortho[1]
 
 save__reflns.gphl_aniso_axis_1_ortho[2]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 1 (Y component) of ellipsoid fitted to
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_1_ortho[2]'
     _item.category_id             reflns
@@ -42,7 +48,10 @@ save__reflns.gphl_aniso_axis_1_ortho[2]
 
 save__reflns.gphl_aniso_axis_1_ortho[3]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 1 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_1_ortho[3]'
     _item.category_id             reflns
@@ -61,7 +70,10 @@ save__reflns.gphl_aniso_axis_1_ortho[3]
 
 save__reflns.gphl_aniso_axis_2_ortho[1]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 2 (X component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_2_ortho[1]'
     _item.category_id             reflns
@@ -80,7 +92,10 @@ save__reflns.gphl_aniso_axis_2_ortho[1]
 
 save__reflns.gphl_aniso_axis_2_ortho[2]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 2 (Y component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_2_ortho[2]'
     _item.category_id             reflns
@@ -99,7 +114,10 @@ save__reflns.gphl_aniso_axis_2_ortho[2]
 
 save__reflns.gphl_aniso_axis_2_ortho[3]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 2 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_2_ortho[3]'
     _item.category_id             reflns
@@ -118,7 +136,10 @@ save__reflns.gphl_aniso_axis_2_ortho[3]
 
 save__reflns.gphl_aniso_axis_3_ortho[1]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 3 (X component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_3_ortho[1]'
     _item.category_id             reflns
@@ -137,7 +158,10 @@ save__reflns.gphl_aniso_axis_3_ortho[1]
 
 save__reflns.gphl_aniso_axis_3_ortho[2]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 3 (Y component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_3_ortho[2]'
     _item.category_id             reflns
@@ -156,7 +180,10 @@ save__reflns.gphl_aniso_axis_3_ortho[2]
 
 save__reflns.gphl_aniso_axis_3_ortho[3]
     _item_description.description
-;             GPhL TBD
+;             Principal axis 3 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description established by
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_3_ortho[3]'
     _item.category_id             reflns
@@ -176,7 +203,8 @@ save__reflns.gphl_aniso_axis_3_ortho[3]
 
 save__reflns.gphl_aniso_diffrn_limit_1
     _item_description.description
-;             GPhL TBD
+;             Anisotropic diffraction limit along principal axis 1 (of
+              ellipsoid fitted to diffraction cut-off surface).
 ;
     _item.name                  '_reflns.gphl_aniso_diffrn_limit_1'
     _item.category_id             reflns
@@ -191,7 +219,8 @@ save__reflns.gphl_aniso_diffrn_limit_1
 
 save__reflns.gphl_aniso_diffrn_limit_2
     _item_description.description
-;             GPhL TBD
+;             Anisotropic diffraction limit along principal axis 2 (of
+              ellipsoid fitted to diffraction cut-off surface)
 ;
     _item.name                  '_reflns.gphl_aniso_diffrn_limit_2'
     _item.category_id             reflns
@@ -206,7 +235,8 @@ save__reflns.gphl_aniso_diffrn_limit_2
 
 save__reflns.gphl_aniso_diffrn_limit_3
     _item_description.description
-;             GPhL TBD
+;             Anisotropic diffraction limit along principal axis 3 (of
+              ellipsoid fitted to diffraction cut-off surface)
 ;
     _item.name                  '_reflns.gphl_aniso_diffrn_limit_3'
     _item.category_id             reflns
@@ -221,10 +251,12 @@ save__reflns.gphl_aniso_diffrn_limit_3
 
 save__reflns.gphl_orthogonalization_convention
     _item_description.description
-;             GPhL TBD (Needed to enable diffraction anisotropy to be related
-                        to the reciprocal unit cell, but with only a limited
-                        number of cases in use in practice we don't need a full
-                        matrix like the ATOM_SITES category.)
+;             Description of orthogonalization convention used. The
+              notation can make use of unit cell axes "a", "b" and "c"
+              and the reciprocal unit cell axes "astar", "bstar" and
+              "cstar". Upper case letters "X", "Y" and "Z" denote the
+              orthogonal axes, while lower case "x" stands for "cross
+              product".
 ;
     _item.name                  '_reflns.gphl_orthogonalization_convention'
     _item.category_id             reflns
@@ -235,13 +267,20 @@ save__reflns.gphl_orthogonalization_convention
     loop_
     _item_enumeration.value
     _item_enumeration.detail
-       pdb  'x along a, y along (cstar x a), z along cstar, with origins conincident'
+       pdb  'X along a, Y along (cstar x a), Z along cstar, with origins conincident'
 
     save_
 
 save__reflns.gphl_percent_possible_spherical_obs
     _item_description.description
-;              GPhL TBD
+;              The percentage of observed reflections relative to the
+               total number of possible observations represented by
+               reflections that satisfy the resolution limits
+               established by _reflns.d_resolution_high and
+               _reflns.d_resolution_low.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns.percent_possible_obs.
 ;
     _item.name                  '_reflns.gphl_percent_possible_spherical_obs'
     _item.category_id             reflns
@@ -257,7 +296,11 @@ save__reflns.gphl_percent_possible_spherical_obs
 
 save__reflns.gphl_percent_possible_ellipsoidal_obs
     _item_description.description
-;              GPhL TBD
+;              The percentage of observed reflections relative to the
+               total number of possible observations within an
+               anisotropy model described by the ellipsoid fitted to
+               the cut-off surface
+               (__reflns.gphl_aniso_axis_{1,2,3}_ortho[1..3] items).
 ;
     _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs'
     _item.category_id             reflns
@@ -274,7 +317,11 @@ save__reflns.gphl_percent_possible_ellipsoidal_obs
 
 save__reflns.gphl_percent_possible_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              The percentage of observed anomalous differences
+               relative to the total number of possible anomalous
+               differences represented by reflections that satisfy the
+               resolution limits established by
+               _reflns.d_resolution_high and _reflns.d_resolution_low.
 ;
     _item.name                  '_reflns.gphl_percent_possible_obs_anomalous'
     _item.category_id             reflns
@@ -290,7 +337,14 @@ save__reflns.gphl_percent_possible_obs_anomalous
 
 save__reflns.gphl_percent_possible_spherical_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              The percentage of observed anomalous differences
+               relative to the total number of possible anomalous
+               differences represented by reflections that satisfy the
+               resolution limits established by
+               _reflns.d_resolution_high and _reflns.d_resolution_low.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns.gphl_percent_possible_obs_anomalous.
 ;
     _item.name                  '_reflns.gphl_percent_possible_spherical_obs_anomalous'
     _item.category_id             reflns
@@ -306,7 +360,11 @@ save__reflns.gphl_percent_possible_spherical_obs_anomalous
 
 save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              The percentage of observed reflections relative to the
+               total number of possible observations within an
+               anisotropy model described by the ellipsoid fitted to
+               the cut-off surface
+               (__reflns.gphl_aniso_axis_{1,2,3}_ortho[1..3] items).
 ;
     _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs_anomalous'
     _item.category_id             reflns
