@@ -7,7 +7,7 @@ save__reflns.gphl_aniso_axis_1_ortho[1]
 ;             Principal axis 1 (X component) of ellipsoid fitted to
               diffraction cut-off surface. The orthogonalization
               follows the description established by
-              _reflns.gphl_orthogonalization_convention. 
+              _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_axis_1_ortho[1]'
     _item.category_id             reflns
