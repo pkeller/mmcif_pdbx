@@ -114,7 +114,7 @@ save__reflns.gphl_aniso_axis_2_ortho[2]
 
 save__reflns.gphl_aniso_axis_2_ortho[3]
     _item_description.description
-;             Principal axis 2 (Y component) of ellipsoid fitted
+;             Principal axis 2 (Z component) of ellipsoid fitted
               diffraction cut-off surface. The orthogonalization
               follows the description established by
               _reflns.gphl_orthogonalization_convention.
