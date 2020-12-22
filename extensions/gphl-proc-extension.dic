@@ -321,6 +321,339 @@ save__reflns.gphl_aniso_diffraction_limit_3
 
     save_
 
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]
+    _item_description.description
+;             X component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]
+    _item_description.description
+;             Y component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]
+    _item_description.description
+;             Z component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]
+    _item_description.description
+;             X component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]
+    _item_description.description
+;             Y component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]
+    _item_description.description
+;             Z component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]
+    _item_description.description
+;             X component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]
+    _item_description.description
+;             Y component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[3]
+    _item_description.description
+;             Z component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_1
+     _item_description.description
+;             Eigen-B-factor along the first eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_1'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_1"   0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_2
+     _item_description.description
+;             Eigen-B-factor along the second eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_2'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_2"   0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_3
+     _item_description.description
+;             Eigen-B-factor along the third eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_3'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_3"   0.0  .
+
+    save_
+
 save__reflns.gphl_orthogonalization_convention
     _item_description.description
 ;             Description of orthogonalization convention used. The
