@@ -831,11 +831,11 @@ save__reflns.gphl_absDiff_over_sigma_anomalous
 
     save_
 
-save__reflns.gphl_observed_criterion_signal
+save__reflns.gphl_observed_signal_threshold
     _item_description.description
 ;             GPhL TBD
 ;
-    _item.name                  '_reflns.gphl_observed_criterion_signal'
+    _item.name                  '_reflns.gphl_observed_signal_threshold'
     _item.category_id             reflns
     _item.mandatory_code          no
     _item_type.code               float
@@ -845,7 +845,7 @@ save__reflns.gphl_observed_criterion_signal
 save__reflns.gphl_signal_type
     _item_description.description
 ;             GPhL TBD Type of signal used for
-              _reflns.gphl_observed_criterion_signal and _refln.gphl_signal
+              _reflns.gphl_observed_signal_threshold and _refln.gphl_signal
 ;
     _item.name                  '_reflns.gphl_signal_type'
     _item.category_id             reflns
@@ -1202,9 +1202,9 @@ save__refln.gphl_signal_status
 ;              The status of a reflection related to _refln.gphl_signal.
 
                A measured reflection counts as observed if:
-                  _refln.gphl_signal >= _reflns.gphl_observed_criterion_signal
+                  _refln.gphl_signal >= _reflns.gphl_observed_signal_threshold
                and unobserved if:
-                  _refln.gphl_signal <  _reflns.gphl_observed_criterion_signal
+                  _refln.gphl_signal <  _reflns.gphl_observed_signal_threshold
 
                An unmeasured but observable reflection is one that has not
                been measured, but the data processing has determined that it
@@ -1214,9 +1214,9 @@ save__refln.gphl_signal_status
                processing has determined would not have been expected to be
                observed.
 
-               In datasets which _refln.gphl_signal has been populated, a null
-               (?) value indicates an unmeasured reflection for which it is not
-               known whether it is observable or not.
+               In datasets in which _refln.gphl_signal has been populated, a null
+               (?) value for this item indicates an unmeasured reflection for
+	       which it is not known whether it is observable or not.
 ;
     _item.name                  '_refln.gphl_signal_status'
     _item.category_id             refln
