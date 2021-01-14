@@ -844,8 +844,17 @@ save__reflns.gphl_observed_signal_threshold
 
 save__reflns.gphl_signal_type
     _item_description.description
-;             GPhL TBD Type of signal used for
+;             Type of signal used for
               _reflns.gphl_observed_signal_threshold and _refln.gphl_signal
+
+              In the enumeration details:
+
+                 Imean is the inverse-variance weighted mean intensity of all
+                 measurements for a given symmetry-unique reflection
+
+                 Ihalf is the inverse-variance weighted mean intensity of a
+                 random half-selection of all measurements for a
+                 given symmetry-unique reflection
 ;
     _item.name                  '_reflns.gphl_signal_type'
     _item.category_id             reflns
@@ -856,7 +865,20 @@ save__reflns.gphl_signal_type
     loop_
     _item_enumeration.value
     _item_enumeration.detail
-       local(I/sigI)  'GPhL TBD'
+       'local <I/sigmaI>'  'Local weighted average Imean/sigma(Imean)'
+       'local wCC_half'    'Local weighted Pearson product-moment correlation coefficient of Ihalf/sigma(Imean) values'
+
+    save_
+
+save__reflns.gphl_signal_details
+    _item_description.description
+;             Further details about the calculation of the values
+              assigned to _refln.gphl_signal
+;
+    _item.name                  '_reflns.gphl_signal_details'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               any
 
     save_
 
