@@ -1,4 +1,4 @@
-#####################
+####################
 ## Category REFLNS ##
 #####################
 
@@ -785,7 +785,9 @@ save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
 
 save__reflns.gphl_redundancy_anomalous
     _item_description.description
-;              GPhL TBD
+;              The overall redundancy of anomalous data, i.e. where
+               both Friedel pairs for a centric reflection are
+               available.
 ;
     _item.name                  '_reflns.gphl_redundancy_anomalous'
     _item.category_id             reflns
@@ -801,7 +803,10 @@ save__reflns.gphl_redundancy_anomalous
 
 save__reflns.gphl_CC_half_anomalous
     _item_description.description
-;             GPhL TBD
+;             The overall correlation coefficient between two randomly
+              chosen half-sets of anomalous intensity differences,
+              I(+)-I(-) for anomalous data, i.e. where both Friedel
+              pairs for a centric reflection are available.
 ;
     _item.name                  '_reflns.gphl_CC_half_anomalous'
     _item.category_id             reflns
@@ -817,7 +822,18 @@ save__reflns.gphl_CC_half_anomalous
 
 save__reflns.gphl_absDiff_over_sigma_anomalous
     _item_description.description
-;             GPhL TBD
+;             The overall mean ratio of absolute anomalous intensity
+              differences to their standard deviation, i.e.
+
+                   |Dano|
+                -------------
+                 sigma(Dano)
+
+              with 
+
+                Dano        = I(+) - I(-)
+                sigma(Dano) = sqrt( sigma(I(+))^2 + sigma(I(-))^2 )
+
 ;
     _item.name                  '_reflns.gphl_absDiff_over_sigma_anomalous'
     _item.category_id             reflns
@@ -833,7 +849,11 @@ save__reflns.gphl_absDiff_over_sigma_anomalous
 
 save__reflns.gphl_observed_signal_threshold
     _item_description.description
-;             GPhL TBD
+;             Value above which a reflections
+              _refln.gphl_signal_status will be defined as 'observed'
+              or 'observable' ('o') given the individual
+              _refln.gphl_signal value and the definition of
+              _reflns.gphl_signal_type.
 ;
     _item.name                  '_reflns.gphl_observed_signal_threshold'
     _item.category_id             reflns
@@ -970,7 +990,9 @@ save__gphl_refln_signal_binning.upper_threshold
 
 save__reflns_shell.gphl_percent_possible_spherical_all
     _item_description.description
-;              GPhL TBD
+;              Completeness of data within the spherical shell defined
+               by the diffraction limits of this shell relative to all
+               possible unique reflections within that shell.
 ;
     _item.name                  '_reflns_shell.gphl_percent_possible_spherical_all'
     _item.category_id             reflns_shell
@@ -986,7 +1008,12 @@ save__reflns_shell.gphl_percent_possible_spherical_all
 
 save__reflns_shell.gphl_percent_possible_ellipsoidal_all
     _item_description.description
-;              GPhL TBD
+;              Completeness of data within the spherical shell
+               (defined by the diffraction limits of this shell) and
+               within the ellipsoid (described by
+               __reflns.gphl_aniso_diffraction* items) relative to all
+               possible unique reflections in the same reciprocal
+               space within that shell.
 ;
     _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_all'
     _item.category_id             reflns_shell
@@ -1002,7 +1029,9 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal_all
 
 save__reflns_shell.gphl_percent_possible_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              Completeness of anomalous data within the diffraction
+               limits of this shell relative to all possible unique
+               Friedel pairs within that shell.
 ;
     _item.name                  '_reflns_shell.gphl_percent_possible_obs_anomalous'
     _item.category_id             reflns_shell
@@ -1018,7 +1047,10 @@ save__reflns_shell.gphl_percent_possible_obs_anomalous
 
 save__reflns_shell.gphl_percent_possible_spherical_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              Completeness of anomalous data within the spherical
+               shell defined by the diffraction limits of this shell
+               relative to all possible unique Friedel pairs within
+               that shell.
 ;
     _item.name                  '_reflns_shell.gphl_percent_possible_spherical_obs_anomalous'
     _item.category_id             reflns_shell
@@ -1034,7 +1066,11 @@ save__reflns_shell.gphl_percent_possible_spherical_obs_anomalous
 
 save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
     _item_description.description
-;              GPhL TBD
+;              Completeness of anomalous data within the spherical
+               shell (defined by the diffraction limits of this shell)
+               and within the ellipsoid (described by
+               __reflns.gphl_aniso_diffraction* items) relative to all
+               possible unique Friedel pairs within that shell.
 ;
     _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'
     _item.category_id             reflns_shell
@@ -1050,7 +1086,9 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
 
 save__reflns_shell.gphl_redundancy_anomalous
     _item_description.description
-;              GPhL TBD
+;              The redundancy of anomalous data within the diffraction
+               limits of the current shell, i.e. where both Friedel
+               pairs for a centric reflection are available.
 ;
     _item.name                  '_reflns_shell.gphl_redundancy_anomalous'
     _item.category_id             reflns_shell
@@ -1066,7 +1104,11 @@ save__reflns_shell.gphl_redundancy_anomalous
 
 save__reflns_shell.gphl_CC_half_anomalous
     _item_description.description
-;             GPhL TBD
+;             The correlation coefficient (within the diffraction
+              limits of this shell) between two randomly chosen
+              half-sets of anomalous intensity differences, I(+)-I(-)
+              for anomalous data, i.e. where both Friedel pairs for a
+              centric reflection are available.
 ;
     _item.name                  '_reflns_shell.gphl_CC_half_anomalous'
     _item.category_id             reflns_shell
@@ -1082,7 +1124,18 @@ save__reflns_shell.gphl_CC_half_anomalous
 
 save__reflns_shell.gphl_absDiff_over_sigma_anomalous
     _item_description.description
-;             GPhL TBD
+;             The overall mean ratio of absolute anomalous intensity
+              differences to their standard deviation (within the
+              diffraction limits of this shell), i.e.
+
+                   |Dano|
+                -------------
+                 sigma(Dano)
+
+              with 
+
+                Dano        = I(+) - I(-)
+                sigma(Dano) = sqrt( sigma(I(+))^2 + sigma(I(-))^2 )
 ;
     _item.name                  '_reflns_shell.gphl_absDiff_over_sigma_anomalous'
     _item.category_id             reflns_shell
@@ -1102,7 +1155,8 @@ save__reflns_shell.gphl_absDiff_over_sigma_anomalous
 
 save__diffrn_refln.gphl_image_id
     _item_description.description
-;              GPhL TBD
+;              Unique image identifier for a given measured reflection
+               - usually the image (or frame) number.
 ;
     _item.name                  '_diffrn_refln.gphl_image_id'
     _item.category_id             diffrn_refln
@@ -1116,7 +1170,7 @@ save__diffrn_refln.gphl_image_id
 
 save__diffrn_refln.gphl_detector_x
     _item_description.description
-;              GPhL TBD
+;              X coordinate of reflection on detector (pixels).
 ;
     _item.name                  '_diffrn_refln.gphl_detector_x'
     _item.category_id             diffrn_refln
@@ -1127,7 +1181,7 @@ save__diffrn_refln.gphl_detector_x
 
 save__diffrn_refln.gphl_detector_y
     _item_description.description
-;              GPhL TBD
+;              Y coordinate of reflection on detector (pixels).
 ;
     _item.name                  '_diffrn_refln.gphl_detector_y'
     _item.category_id             diffrn_refln
@@ -1138,7 +1192,7 @@ save__diffrn_refln.gphl_detector_y
 
 save__diffrn_refln.gphl_rotation_angle
     _item_description.description
-;              GPhL TBD
+;              Angular value of scan axis (degrees).
 ;
     _item.name                  '_diffrn_refln.gphl_rotation_angle'
     _item.category_id             diffrn_refln
@@ -1149,7 +1203,8 @@ save__diffrn_refln.gphl_rotation_angle
 
 save__diffrn_refln.gphl_scale_value
     _item_description.description
-;              GPhL TBD
+;              Multiplying scale factor applied to the reflection
+               intensities.
 ;
     _item.name                  '_diffrn_refln.gphl_scale_value'
     _item.category_id             diffrn_refln
@@ -1167,7 +1222,9 @@ save__diffrn_refln.gphl_scale_value
 
 save__refln.gphl_number_obs
     _item_description.description
-;              GPhL TBD
+;              The number of measurements contributing to this
+               symmetry-unique reflection, i.e. the per-reflection
+               redundancy.
 ;
     _item.name                  '_refln.gphl_number_obs'
     _item.category_id             refln
@@ -1181,7 +1238,8 @@ save__refln.gphl_number_obs
 
 save__refln.gphl_number_obs_plus
     _item_description.description
-;              GPhL TBD
+;              The number of measurements contributing to the I(+)
+               intensity of this symmetry-unique reflection.
 ;
     _item.name                  '_refln.gphl_number_obs_plus'
     _item.category_id             refln
@@ -1195,7 +1253,8 @@ save__refln.gphl_number_obs_plus
 
 save__refln.gphl_number_obs_minus
     _item_description.description
-;              GPhL TBD
+;              The number of measurements contributing to the I(-)
+               intensity of this symmetry-unique reflection.
 ;
     _item.name                  '_refln.gphl_number_obs_minus'
     _item.category_id             refln
@@ -1209,7 +1268,8 @@ save__refln.gphl_number_obs_minus
 
 save__refln.gphl_signal
     _item_description.description
-;              GPhL TBD
+;              The signal value of a reflection related to
+               _refln.gphl_signal_status.
 ;
     _item.name                  '_refln.gphl_signal'
     _item.category_id             refln
