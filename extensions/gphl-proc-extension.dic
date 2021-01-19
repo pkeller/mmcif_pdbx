@@ -859,7 +859,7 @@ save__reflns.gphl_signal_type
     _item.name                  '_reflns.gphl_signal_type'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_type.code               code
+    _item_type.code               line
 
     _pdbx_item_enumeration_details.closed_flag 'yes'
     loop_
