@@ -1,0 +1,50 @@
+#
+# Multiplicities of individual merged reflections
+#
+
+####################
+## Category REFLN ##
+####################
+
+save__refln.gphl_number_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_refln.gphl_number_obs'
+    _item.category_id             refln
+    _item.mandatory_code          no
+    _item_type.code               int
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+                                  0   .
+    save_
+
+save__refln.gphl_number_obs_plus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_refln.gphl_number_obs_plus'
+    _item.category_id             refln
+    _item.mandatory_code          no
+    _item_type.code               int
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+                                  0   .
+    save_
+
+save__refln.gphl_number_obs_minus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_refln.gphl_number_obs_minus'
+    _item.category_id             refln
+    _item.mandatory_code          no
+    _item_type.code               int
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+                                  0   .
+    save_
+
