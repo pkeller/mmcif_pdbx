@@ -1,0 +1,144 @@
+#
+# Statistics relating to isotropic, anomalous diffraction
+#
+
+#####################
+## Category REFLNS ##
+#####################
+
+save__reflns.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns.gphl_redundancy_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__reflns.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_CC_half_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__reflns.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
+save__reflns.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              The percentage of observed anomalous differences
+               relative to the total number of possible anomalous
+               differences represented by reflections that satisfy the
+               resolution limits established by
+               _reflns.d_resolution_high and _reflns.d_resolution_low.
+;
+    _item.name                  '_reflns.gphl_percent_possible_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+###########################
+## Category REFLNS_SHELL ##
+###########################
+
+save__reflns_shell.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_redundancy_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__reflns_shell.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_CC_half_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__reflns_shell.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
+save__reflns_shell.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+

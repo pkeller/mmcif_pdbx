@@ -1,0 +1,836 @@
+#
+# Statistics relating to anisotropic diffraction
+#
+
+#####################
+## Category REFLNS ##
+#####################
+
+save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[1]
+    _item_description.description
+;             Principal axis 1 (X component) of ellipsoid fitted to
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_1_ortho[1]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[2]
+    _item_description.description
+;             Principal axis 1 (Y component) of ellipsoid fitted to
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+     loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_1_ortho[2]'   'gphl-proc-extension.dic' 0.0
+
+   save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[3]
+    _item_description.description
+;             Principal axis 1 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_1
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_1_ortho[3]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[1]
+    _item_description.description
+;             Principal axis 2 (X component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_2_ortho[1]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[2]
+    _item_description.description
+;             Principal axis 2 (Y component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_2_ortho[2]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[3]
+    _item_description.description
+;             Principal axis 2 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_2
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_2_ortho[3]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[1]
+    _item_description.description
+;             Principal axis 3 (X component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[1]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_3_ortho[1]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[2]
+    _item_description.description
+;             Principal axis 3 (Y component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[2]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_3_ortho[2]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[3]
+    _item_description.description
+;             Principal axis 3 (Z component) of ellipsoid fitted
+              diffraction cut-off surface. The orthogonalization
+              follows the description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[3]'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_sub_category.id         vector
+    _item_sub_category.pdbx_label aniso_axis_3
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_axis_3_ortho[3]'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+
+save__reflns.gphl_aniso_diffraction_limit_1
+    _item_description.description
+;             Anisotropic diffraction limit along principal axis 1 (of
+              ellipsoid fitted to diffraction cut-off surface).
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_1'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_diffrn_limit_1'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_2
+    _item_description.description
+;             Anisotropic diffraction limit along principal axis 2 (of
+              ellipsoid fitted to diffraction cut-off surface)
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_2'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_diffrn_limit_2'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_diffraction_limit_3
+    _item_description.description
+;             Anisotropic diffraction limit along principal axis 3 (of
+              ellipsoid fitted to diffraction cut-off surface)
+;
+    _item.name                  '_reflns.gphl_aniso_diffraction_limit_3'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_aniso_diffrn_limit_3'   'gphl-proc-extension.dic' 0.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]
+    _item_description.description
+;             X component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]
+    _item_description.description
+;             Y component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]
+    _item_description.description
+;             Z component of the first eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_1
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]
+    _item_description.description
+;             X component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]
+    _item_description.description
+;             Y component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]
+    _item_description.description
+;             Z component of the second eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_2
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]
+    _item_description.description
+;             X component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]
+    _item_description.description
+;             Y component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[3]
+    _item_description.description
+;             Z component of the third eigenvector of the diffraction
+              anisotropy tensor. The orthogonalization follows the
+              description specified by
+              _reflns.gphl_orthogonalization_convention.
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[3]'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    loop_
+    _item_sub_category.id
+    _item_sub_category.pdbx_label
+     unit_vector          aniso_B_tensor_3
+     eigendecomposition   aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_1
+     _item_description.description
+;             Eigen-B-factor along the first eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_1'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_1"   0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_2
+     _item_description.description
+;             Eigen-B-factor along the second eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_2'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_2"   0.0  .
+
+    save_
+
+save__reflns.gphl_aniso_B_tensor_eigenvalue_3
+     _item_description.description
+;             Eigen-B-factor along the third eigenvector of the
+              diffraction anisotropy tensor
+;
+
+    _item.name                     '_reflns.gphl_aniso_B_tensor_eigenvalue_3'
+    _item.category_id              reflns
+    _item.mandatory_code           no
+    _item_type.code                float
+
+    _item_sub_category.id          eigendecomposition
+    _item_sub_category.pdbx_label  aniso_B_tensor
+
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    0.0  .
+
+    loop_
+    _pdbx_item_range.name
+    _pdbx_item_range.minimum
+    _pdbx_item_range.maximum
+    "_reflns.gphl_aniso_B_tensor_eigenvalue_3"   0.0  .
+
+    save_
+
+save__reflns.gphl_orthogonalization_convention
+    _item_description.description
+;             Description of orthogonalization convention used. The
+              notation can make use of unit cell axes "a", "b" and "c"
+              and the reciprocal unit cell axes "astar", "bstar" and
+              "cstar". Upper case letters "X", "Y" and "Z" denote the
+              orthogonal axes, while lower case "x" stands for "cross
+              product".
+;
+    _item.name                  '_reflns.gphl_orthogonalization_convention'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    _item_type.code               code
+
+    _pdbx_item_enumeration_details.closed_flag 'yes'
+    loop_
+    _item_enumeration.value
+    _item_enumeration.detail
+       pdb  'X along a, Y along (cstar x a), Z along cstar, with origins conincident'
+
+    save_
+
+save__reflns.gphl_percent_possible_ellipsoidal_obs
+    _item_description.description
+;              The percentage of observed reflections relative to the
+               total number of possible observations within an
+               anisotropy model described by the ellipsoid fitted to
+               the cut-off surface
+               (__reflns.gphl_aniso_diffraction_limit_axis_{1,2,3}_ortho[1..3] items).
+;
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_spherical_obs
+    _item_description.description
+;              The percentage of observed reflections relative to the
+               total number of possible observations represented by
+               reflections that satisfy the resolution limits
+               established by _reflns.d_resolution_high and
+               _reflns.d_resolution_low.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns.percent_possible_obs.
+;
+    _item.name                  '_reflns.gphl_percent_possible_spherical_obs'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              The percentage of observed reflections relative to the
+               total number of possible observations within an
+               anisotropy model described by the ellipsoid fitted to
+               the cut-off surface
+               (__reflns.gphl_aniso_diffraction_limit_axis_{1,2,3}_ortho[1..3] items).
+;
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              The percentage of observed anomalous differences
+               relative to the total number of possible anomalous
+               differences represented by reflections that satisfy the
+               resolution limits established by
+               _reflns.d_resolution_high and _reflns.d_resolution_low.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns.gphl_percent_possible_obs_anomalous.
+;
+    _item.name                  '_reflns.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             reflns
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+###########################
+## Category REFLNS_SHELL ##
+###########################
+
+save__reflns_shell.gphl_percent_possible_ellipsoidal_all
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_all'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_spherical_all
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_all'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__reflns_shell.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             reflns_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
