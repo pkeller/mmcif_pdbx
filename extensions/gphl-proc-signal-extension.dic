@@ -175,7 +175,7 @@ save__refln.gphl_signal_status
 
                In datasets in which _refln.gphl_signal has been populated, a null
                (?) value for this item indicates an unmeasured reflection for
-	       which it is not known whether it is observable or not.
+               which it is not known whether it is observable or not.
 ;
     _item.name                  '_refln.gphl_signal_status'
     _item.category_id             refln

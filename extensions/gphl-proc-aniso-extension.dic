@@ -9,14 +9,14 @@
 save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[1]
     _item_description.description
 ;             Principal axis 1 (X component) of ellipsoid fitted to
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[1]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_1
     _item_type.code               float
     loop_
@@ -37,14 +37,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[1]
 save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[2]
     _item_description.description
 ;             Principal axis 1 (Y component) of ellipsoid fitted to
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[2]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_1
     _item_type.code               float
     loop_
@@ -65,14 +65,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[2]
 save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[3]
     _item_description.description
 ;             Principal axis 1 (Z component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_1_ortho[3]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_1
     _item_type.code               float
     loop_
@@ -93,14 +93,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_1_ortho[3]
 save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[1]
     _item_description.description
 ;             Principal axis 2 (X component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[1]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_2
     _item_type.code               float
     loop_
@@ -121,14 +121,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[1]
 save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[2]
     _item_description.description
 ;             Principal axis 2 (Y component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[2]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_2
     _item_type.code               float
     loop_
@@ -149,14 +149,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[2]
 save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[3]
     _item_description.description
 ;             Principal axis 2 (Z component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_2_ortho[3]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_2
     _item_type.code               float
     loop_
@@ -177,14 +177,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_2_ortho[3]
 save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[1]
     _item_description.description
 ;             Principal axis 3 (X component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[1]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_3
     _item_type.code               float
     loop_
@@ -205,14 +205,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[1]
 save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[2]
     _item_description.description
 ;             Principal axis 3 (Y component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[2]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_3
     _item_type.code               float
     loop_
@@ -233,14 +233,14 @@ save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[2]
 save__reflns.gphl_aniso_diffraction_limit_axis_3_ortho[3]
     _item_description.description
 ;             Principal axis 3 (Z component) of ellipsoid fitted
-              diffraction cut-off surface. The orthogonalization
-              follows the description specified by
+              diffraction cut-off surface. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
     _item.name                  '_reflns.gphl_aniso_diffraction_limit_axis_3_ortho[3]'
     _item.category_id             reflns
     _item.mandatory_code          no
-    _item_sub_category.id         vector
+    _item_sub_category.id         unit_vector
     _item_sub_category.pdbx_label aniso_axis_3
     _item_type.code               float
     loop_
@@ -268,6 +268,7 @@ save__reflns.gphl_aniso_diffraction_limit_1
     _item.category_id             reflns
     _item.mandatory_code          no
     _item_type.code               float
+    _item_units.code              angstroms
     loop_
     _item_range.minimum
     _item_range.maximum
@@ -290,6 +291,7 @@ save__reflns.gphl_aniso_diffraction_limit_2
     _item.category_id             reflns
     _item.mandatory_code          no
     _item_type.code               float
+    _item_units.code              angstroms
     loop_
     _item_range.minimum
     _item_range.maximum
@@ -312,6 +314,7 @@ save__reflns.gphl_aniso_diffraction_limit_3
     _item.category_id             reflns
     _item.mandatory_code          no
     _item_type.code               float
+    _item_units.code              angstroms
     loop_
     _item_range.minimum
     _item_range.maximum
@@ -328,8 +331,8 @@ save__reflns.gphl_aniso_diffraction_limit_3
 save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]
     _item_description.description
 ;             X component of the first eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -356,8 +359,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[1]
 save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]
     _item_description.description
 ;             Y component of the first eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -384,8 +387,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[2]
 save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]
     _item_description.description
 ;             Z component of the first eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -412,8 +415,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_1_ortho[3]
 save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]
     _item_description.description
 ;             X component of the second eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -440,8 +443,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[1]
 save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]
     _item_description.description
 ;             Y component of the second eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -468,8 +471,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[2]
 save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]
     _item_description.description
 ;             Z component of the second eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -496,8 +499,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_2_ortho[3]
 save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]
     _item_description.description
 ;             X component of the third eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -524,8 +527,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[1]
 save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]
     _item_description.description
 ;             Y component of the third eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -552,8 +555,8 @@ save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[2]
 save__reflns.gphl_aniso_B_tensor_eigenvector_3_ortho[3]
     _item_description.description
 ;             Z component of the third eigenvector of the diffraction
-              anisotropy tensor. The orthogonalization follows the
-              description specified by
+              anisotropy tensor. The applicable orthogonalization
+              convention is that specified by
               _reflns.gphl_orthogonalization_convention.
 ;
 
@@ -587,6 +590,7 @@ save__reflns.gphl_aniso_B_tensor_eigenvalue_1
     _item.category_id              reflns
     _item.mandatory_code           no
     _item_type.code                float
+    _item_units.code               angstroms_squared
 
     _item_sub_category.id          eigendecomposition
     _item_sub_category.pdbx_label  aniso_B_tensor
@@ -614,6 +618,7 @@ save__reflns.gphl_aniso_B_tensor_eigenvalue_2
     _item.category_id              reflns
     _item.mandatory_code           no
     _item_type.code                float
+    _item_units.code               angstroms_squared
 
     _item_sub_category.id          eigendecomposition
     _item_sub_category.pdbx_label  aniso_B_tensor
@@ -641,6 +646,7 @@ save__reflns.gphl_aniso_B_tensor_eigenvalue_3
     _item.category_id              reflns
     _item.mandatory_code           no
     _item_type.code                float
+    _item_units.code               angstroms_squared
 
     _item_sub_category.id          eigendecomposition
     _item_sub_category.pdbx_label  aniso_B_tensor
