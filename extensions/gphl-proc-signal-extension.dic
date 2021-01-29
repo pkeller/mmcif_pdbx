@@ -9,7 +9,9 @@
 
 save__reflns.gphl_observed_signal_threshold
     _item_description.description
-;             GPhL TBD
+;             The threshold value for _refln.gphl_signal as used to
+              define the status of an individual reflection acoording
+              to the description in _refln.gphl_signal_status.
 ;
     _item.name                  '_reflns.gphl_observed_signal_threshold'
     _item.category_id             reflns
@@ -146,7 +148,9 @@ save__gphl_refln_signal_binning.upper_threshold
 
 save__refln.gphl_signal
     _item_description.description
-;              GPhL TBD
+;              The signal value for this reflection as defined by
+               _reflns.gphl_signal_type and _reflns.gphl_signal_details
+               as calculated by _reflns.gphl_signal_software_id.
 ;
     _item.name                  '_refln.gphl_signal'
     _item.category_id             refln
@@ -191,4 +195,3 @@ save__refln.gphl_signal_status
        u   'Unmeasured and unobservable reflection'
 
     save_
-
