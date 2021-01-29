@@ -8,7 +8,9 @@
 
 save__diffrn_refln.gphl_image_id
     _item_description.description
-;              GPhL TBD
+;              The identifier of the diffraction image this reflection
+               is associated with. This is often the image where the
+               calculated reflection centroid is predicted to occur.
 ;
     _item.name                  '_diffrn_refln.gphl_image_id'
     _item.category_id             diffrn_refln
@@ -22,7 +24,14 @@ save__diffrn_refln.gphl_image_id
 
 save__diffrn_refln.gphl_detector_x
     _item_description.description
-;              GPhL TBD
+;              Detector coordinate (in pixels) along the X-direction
+               for this reflection. This is often the position where
+               the calculated reflection centroid is predicted to occur.
+
+               The detector X-direction is most often along the fast
+               changing array index of the 2D diffraction array, while
+               the Y-coordinate is along the slow changing array
+               index.
 ;
     _item.name                  '_diffrn_refln.gphl_detector_x'
     _item.category_id             diffrn_refln
@@ -33,7 +42,14 @@ save__diffrn_refln.gphl_detector_x
 
 save__diffrn_refln.gphl_detector_y
     _item_description.description
-;              GPhL TBD
+;              Detector coordinate (in pixels) along the Y-direction
+               for this reflection. This is often the position where
+               the calculated reflection centroid is predicted to occur.
+
+               The detector X-direction is most often along the fast
+               changing array index of the 2D diffraction array, while
+               the Y-coordinate is along the slow changing array
+               index.
 ;
     _item.name                  '_diffrn_refln.gphl_detector_y'
     _item.category_id             diffrn_refln
@@ -44,7 +60,9 @@ save__diffrn_refln.gphl_detector_y
 
 save__diffrn_refln.gphl_rotation_angle
     _item_description.description
-;              GPhL TBD
+;              The value of the angle around the scan axis for this
+               reflection. This is often the scan angle at which the
+               calculated reflection centroid is predicted to occur.
 ;
     _item.name                  '_diffrn_refln.gphl_rotation_angle'
     _item.category_id             diffrn_refln
@@ -56,7 +74,10 @@ save__diffrn_refln.gphl_rotation_angle
 
 save__diffrn_refln.gphl_scale_value
     _item_description.description
-;              GPhL TBD
+;              The scale factor applied to an individual reflection
+               intensity at the last scaling step before merging
+               all measurements belonging to symmetry-unique
+               reflections into a merged intensity.
 ;
     _item.name                  '_diffrn_refln.gphl_scale_value'
     _item.category_id             diffrn_refln
