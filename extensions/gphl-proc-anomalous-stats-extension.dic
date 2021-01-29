@@ -63,7 +63,7 @@ save__reflns.gphl_absDiff_over_sigma_anomalous
                  -------------
                   sigma(Dano)
 
-               with 
+               with
 
                  Dano        = I(+) - I(-)
                  sigma(Dano) = sqrt( sigma(I(+))^2 + sigma(I(-))^2 )
@@ -161,7 +161,7 @@ save__reflns_shell.gphl_absDiff_over_sigma_anomalous
                  -------------
                   sigma(Dano)
 
-               with 
+               with
 
                  Dano        = I(+) - I(-)
                  sigma(Dano) = sqrt( sigma(I(+))^2 + sigma(I(-))^2 )
