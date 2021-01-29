@@ -686,15 +686,17 @@ save__reflns.gphl_orthogonalization_convention
 
     save_
 
-save__reflns.gphl_percent_possible_ellipsoidal_obs
+save__reflns.gphl_percent_possible_ellipsoidal
     _item_description.description
-;              The percentage of observed reflections relative to the
-               total number of possible observations within an
-               anisotropy model described by the ellipsoid fitted to
-               the cut-off surface
-               (__reflns.gphl_aniso_diffraction_limit_axis_{1,2,3}_ortho[1..3] items).
+;              Completeness (as a percentage) of symmetry-unique data
+               within the intersection of (1) a sphere (defined by the
+               diffraction limits, _reflns.d_resolution_high and
+               _reflns.d_resolution_low) and (2) the ellipsoid
+               (described by __reflns.gphl_aniso_diffraction_limit_*
+               items), relative to all possible symmetry-unique
+               reflections within that intersection.
 ;
-    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs'
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal'
     _item.category_id             reflns
     _item.mandatory_code          no
     loop_
@@ -706,18 +708,18 @@ save__reflns.gphl_percent_possible_ellipsoidal_obs
     _item_type.code               float
      save_
 
-save__reflns.gphl_percent_possible_spherical_obs
+save__reflns.gphl_percent_possible_spherical
     _item_description.description
-;              The percentage of observed reflections relative to the
-               total number of possible observations represented by
-               reflections that satisfy the resolution limits
-               established by _reflns.d_resolution_high and
-               _reflns.d_resolution_low.
+;              Completeness (as a percentage) of symmetry-unique data
+               within the sphere defined by the diffraction limits
+               (_reflns.d_resolution_high and
+               _reflns.d_resolution_low) relative to all possible
+               symmetry-unique reflections within that sphere.
 
                In the absence of an anisotropy description this is
                identical to _reflns.percent_possible_obs.
 ;
-    _item.name                  '_reflns.gphl_percent_possible_spherical_obs'
+    _item.name                  '_reflns.gphl_percent_possible_spherical'
     _item.category_id             reflns
     _item.mandatory_code          no
     loop_
@@ -729,15 +731,18 @@ save__reflns.gphl_percent_possible_spherical_obs
     _item_type.code               float
      save_
 
-save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
+save__reflns.gphl_percent_possible_ellipsoidal_anomalous
     _item_description.description
-;              The percentage of observed reflections relative to the
-               total number of possible observations within an
-               anisotropy model described by the ellipsoid fitted to
-               the cut-off surface
-               (__reflns.gphl_aniso_diffraction_limit_axis_{1,2,3}_ortho[1..3] items).
+;              Completeness (as a percentage) of symmetry-unique
+               anomalous difference data within the intersection of
+               (1) a sphere (defined by the diffraction limits,
+               _reflns.d_resolution_high and _reflns.d_resolution_low)
+               and (2) the ellipsoid (described by
+               __reflns.gphl_aniso_diffraction_limit_* items),
+               relative to all possible symmetry-unique anomalous
+               difference data within that intersection.
 ;
-    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.name                  '_reflns.gphl_percent_possible_ellipsoidal_anomalous'
     _item.category_id             reflns
     _item.mandatory_code          no
     loop_
@@ -749,18 +754,19 @@ save__reflns.gphl_percent_possible_ellipsoidal_obs_anomalous
     _item_type.code               float
      save_
 
-save__reflns.gphl_percent_possible_spherical_obs_anomalous
+save__reflns.gphl_percent_possible_spherical_anomalous
     _item_description.description
-;              The percentage of observed anomalous differences
-               relative to the total number of possible anomalous
-               differences represented by reflections that satisfy the
-               resolution limits established by
-               _reflns.d_resolution_high and _reflns.d_resolution_low.
+;              Completeness (as a percentage) of symmetry-unique
+               anomalous difference data within the sphere defined by
+               the diffraction limits (_reflns.d_resolution_high and
+               _reflns.d_resolution_low) relative to all possible
+               symmetry-unique anomalous difference data within that
+               sphere.
 
                In the absence of an anisotropy description this is
-               identical to _reflns.gphl_percent_possible_obs_anomalous.
+               identical to _reflns.gphl_percent_possible_anomalous.
 ;
-    _item.name                  '_reflns.gphl_percent_possible_spherical_obs_anomalous'
+    _item.name                  '_reflns.gphl_percent_possible_spherical_anomalous'
     _item.category_id             reflns
     _item.mandatory_code          no
     loop_
@@ -776,11 +782,18 @@ save__reflns.gphl_percent_possible_spherical_obs_anomalous
 ## Category REFLNS_SHELL ##
 ###########################
 
-save__reflns_shell.gphl_percent_possible_ellipsoidal_all
+save__reflns_shell.gphl_percent_possible_ellipsoidal
     _item_description.description
-;              GPhL TBD
+;              Completeness (as a percentage) of symmetry-unique data
+               within the intersection of (1) a spherical shell
+               (defined by its diffraction limits,
+               _reflns_shell.d_resolution_high and
+               _reflns_shell.d_resolution_low) and (2) the ellipsoid
+               (described by __reflns.gphl_aniso_diffraction_limit_*
+               items), relative to all possible symmetry-unique
+               reflections within that intersection.
 ;
-    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_all'
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal'
     _item.category_id             reflns_shell
     _item.mandatory_code          no
     loop_
@@ -792,11 +805,18 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal_all
     _item_type.code               float
      save_
 
-save__reflns_shell.gphl_percent_possible_spherical_all
+save__reflns_shell.gphl_percent_possible_spherical
     _item_description.description
-;              GPhL TBD
+;              Completeness (as a percentage) of symmetry-unique data
+               within the spherical shell defined by its diffraction
+               limits (_reflns_shell.d_resolution_high and
+               _reflns_shell.d_resolution_low) relative to all
+               possible symmetry-unique reflections within that shell.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns_shell.percent_possible_all.
 ;
-    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_all'
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical'
     _item.category_id             reflns_shell
     _item.mandatory_code          no
     loop_
@@ -808,11 +828,18 @@ save__reflns_shell.gphl_percent_possible_spherical_all
     _item_type.code               float
      save_
 
-save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
+save__reflns_shell.gphl_percent_possible_ellipsoidal_anomalous
     _item_description.description
-;              GPhL TBD
+;              Completeness (as a percentage) of symmetry-unique
+               anomalous difference data within the intersection of
+               (1) a spherical shell (defined by its diffraction
+               limits, _reflns_shell.d_resolution_high and
+               _reflns_shell.d_resolution_low) and (2) the ellipsoid
+               (described by __reflns.gphl_aniso_diffraction_limit_*
+               items), relative to all possible symmetry-unique
+               anomalous difference data within that intersection.
 ;
-    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.name                  '_reflns_shell.gphl_percent_possible_ellipsoidal_anomalous'
     _item.category_id             reflns_shell
     _item.mandatory_code          no
     loop_
@@ -824,11 +851,20 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
     _item_type.code               float
      save_
 
-save__reflns_shell.gphl_percent_possible_spherical_obs_anomalous
+save__reflns_shell.gphl_percent_possible_spherical_anomalous
     _item_description.description
-;              GPhL TBD
+;              Completeness (as a percentage) of symmetry-unique
+               anomalous difference data within the spherical shell
+               defined by its diffraction limits
+               (_reflns_shell.d_resolution_high and
+               _reflns_shell.d_resolution_low) relative to all
+               possible symmetry-unique anomalous difference data
+               within that shell.
+
+               In the absence of an anisotropy description this is
+               identical to _reflns.gphl_percent_possible_anomalous.
 ;
-    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_obs_anomalous'
+    _item.name                  '_reflns_shell.gphl_percent_possible_spherical_anomalous'
     _item.category_id             reflns_shell
     _item.mandatory_code          no
     loop_
