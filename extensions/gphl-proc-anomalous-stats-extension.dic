@@ -99,6 +99,13 @@ save__reflns.gphl_percent_possible_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_percent_possible_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 ###########################
@@ -198,5 +205,12 @@ save__reflns_shell.gphl_percent_possible_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns_shell.gphl_percent_possible_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 

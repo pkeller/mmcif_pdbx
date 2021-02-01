@@ -706,6 +706,13 @@ save__reflns.gphl_percent_possible_ellipsoidal
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_percent_possible_ellipsoidal_obs'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns.gphl_percent_possible_spherical
@@ -729,6 +736,13 @@ save__reflns.gphl_percent_possible_spherical
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_percent_possible_spherical_obs'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns.gphl_percent_possible_ellipsoidal_anomalous
@@ -752,6 +766,13 @@ save__reflns.gphl_percent_possible_ellipsoidal_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_percent_possible_ellipsoidal_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns.gphl_percent_possible_spherical_anomalous
@@ -776,6 +797,13 @@ save__reflns.gphl_percent_possible_spherical_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns.gphl_percent_possible_spherical_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 ###########################
@@ -803,6 +831,13 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns_shell.gphl_percent_possible_ellipsoidal_all'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns_shell.gphl_percent_possible_spherical
@@ -826,6 +861,13 @@ save__reflns_shell.gphl_percent_possible_spherical
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns_shell.gphl_percent_possible_spherical_all'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns_shell.gphl_percent_possible_ellipsoidal_anomalous
@@ -849,6 +891,13 @@ save__reflns_shell.gphl_percent_possible_ellipsoidal_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 
 save__reflns_shell.gphl_percent_possible_spherical_anomalous
@@ -874,5 +923,12 @@ save__reflns_shell.gphl_percent_possible_spherical_anomalous
                                   0.0   0.0
 
     _item_type.code               float
+
+    loop_
+    _item_aliases.alias_name
+    _item_aliases.dictionary
+    _item_aliases.version
+    '_reflns_shell.gphl_percent_possible_spherical_obs_anomalous'   'gphl-proc-extension.dic' 0.0
+
      save_
 
